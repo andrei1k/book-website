@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  border: 2px solid var(--primary-border-color);
+  border-radius: 16px;
+  padding: 15% 5%;
+  width: 260px;
+  height: 200px;
+  margin: auto;
+}

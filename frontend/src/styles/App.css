@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--primary-text-color);
+}
+
+.light {
+  --primary-background-color: blanchedalmond;
+  --primary-text-color: rgb(0, 0, 0);
+  --primary-border-color: rgb(40, 70, 40);
+  --primary-accent-color: rgb(70, 34, 85);
+  --disabled: darkgrey;
+}
+
+.dark {
+  --primary-background-color: rgb(40, 70, 40);
+  --primary-text-color: blanchedalmond;
+  --primary-border-color: rgb(0, 0, 0);
+  --primary-accent-color: rgb(166, 63, 63);
+  --disabled: lightgrey;
+
+  background-color: rgb(54, 53, 53);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

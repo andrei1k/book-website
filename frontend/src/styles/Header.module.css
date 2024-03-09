@@ -1,0 +1,42 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-cen;
+  justify-self: center;
+  gap: 8px;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-self: start;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: var(--primary-background-color);
+  border-bottom: 4px solid var(--primary-border-color);
+  width: 100%;
+}
+
+.controlers {
+  flex-grow: 1;
+  padding: 8px;
+  display: flex;
+  justify-content: end;
+  gap: 4px;
+}
+
+.image {
+  justify-self: start;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title {
+  padding-left: 8px;
+}

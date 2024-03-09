@@ -1,0 +1,41 @@
+.button {
+  padding: 8px;
+  border: 2px solid;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  min-width: 90px;
+  min-height: 45px;
+}
+
+.primary {
+  border-color: var(--primary-border-color);
+  background-color: var(--primary-border-color);
+  color: var(--primary-background-color)
+}
+
+.secondary {
+  border-color: var(--primary-border-color);
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color)
+}
+
+.accent {
+  border-color: var(--primary-accent-color);
+  background-color: var(--primary-accent-color);
+  color: var(--primary-background-color)
+}
+
+.disabled {
+  border-color: var(--disabled);
+  background-color: var(--disabled);
+  color: var(--primary-background-color)
+}
+
+.image {
+  padding: 0;
+  border: none;
+  min-width: 35px;
+  min-height: 35px;
+  background-color: inherit;
+}
